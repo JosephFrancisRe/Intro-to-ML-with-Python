@@ -34,7 +34,7 @@ while graphDisplay != 3:
     elif graphDisplay == 2:
         X, y = mglearn.datasets.make_wave(n_samples = 40)
 
-        plt.plot(X, p(X), 'o')
+        plt.plot(X, y, 'o')
         plt.ylim(-3,3)
         plt.xlabel('Feature')
         plt.ylabel('Target')
